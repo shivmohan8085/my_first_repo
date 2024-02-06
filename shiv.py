@@ -64,10 +64,17 @@
 
 #--------------------------
 
-str = "shivmohan shrama"
-v = ['a','e','i','o','u']
-x =[]
-for i in str :
-    if i in v :
-        print(i,end =" ")
-print()
+# str = "shivmohan shrama"
+# v = ['a','e','i','o','u']
+# x =[]
+# for i in str :
+#     if i in v :
+#         print(i,end =" ")
+# print()
+
+
+#-------------------------------------------------
+
+l = [1,2,4,5,2,3,6]
+l.sort()
+print(l)
